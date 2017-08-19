@@ -50,7 +50,7 @@ namespace MineroEthereumMonitor
         }
 
         private static void iniciarSocket() {
-            string bar = "###########################################################################################################" + Environment.NewLine;
+            string bar = "############################################################################################################" + Environment.NewLine;
             var socket = IO.Socket(urlServidor );
           
             socket.On(Socket.EVENT_CONNECT, () =>
